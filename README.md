@@ -1,21 +1,22 @@
-# Digital Pong (брошено) 
+# Digital-pong
+
 Онлайн версия классической игры Pong
 
-## Бибилиотеки
-* Интерфейс - `Kivy` & `KivyMD`
-* Сервер - `Flask` & `SQLAlchemy`
 
-## Ход работы
-* Изучение `Kivy` & `KivyMD` - 15.02 - 16.03
-* Создание № 1, 2, 3 - 17.03 - 02.05
-* Создание № 4 (итоговая (возможно)) - 03.05 - 20.05 
+## Технологии 🛠
 
-## Инструкция
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Kivy](https://img.shields.io/badge/Kivy-1A9FFF)
+![Flask](https://img.shields.io/badge/Flask-%23000?logo=flask)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?logo=sqlalchemy&style=flat&logoColor=white)
 
-### Оффлайн режим
-Запустите файл `main(client).py`
 
-### Онлайн режим
-Запустите файл `main(server).py`
-Запустите файл `main(client).py` (работает всё, кроме поля боя) 
+## Особенности ✨
+- Игра с другом — онлайн игра с другими игроками.
+- Сохраняй прогресс — сохранение данных зерегестрированных пользователей.
+- Разнообразные партии — тонкая настройка характеристик партии.
 
+
+## Запуск 🗄️
+
+Для работы сервера, необходимо запустить файл `main(server).py`.
