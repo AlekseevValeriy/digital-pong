@@ -1,22 +1,35 @@
-# Digital-pong
+# Digital pong
 
-Онлайн версия классической игры Pong
+Онлайн версия игры Pong
 
-
-## Технологии 🛠
+## Технологии
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Kivy](https://img.shields.io/badge/Kivy-1A9FFF)
 ![Flask](https://img.shields.io/badge/Flask-%23000?logo=flask)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?logo=sqlalchemy&style=flat&logoColor=white)
 
+## Возможности
 
-## Особенности ✨
-- Игра с другом — онлайн игра с другими игроками.
-- Сохраняй прогресс — сохранение данных зерегестрированных пользователей.
-- Разнообразные партии — тонкая настройка характеристик партии.
+- Онлайн сражения
+- Расширенная настройка партий
+- Система аккаунтов с сохранением прогресса
 
+## Установка
 
-## Запуск 🗄️
+```bash
+git clone https://github.com/AlekseevValeriy/digital-pong.git
+cd digital-pong
+```
 
-Для работы сервера, необходимо запустить файл `main(server).py`.
+## Использование
+
+```bash
+cd src/module/client
+python main(client).py
+cd ../server
+python main(server).py
+```
+
+## Лицензия
+Распространяется по лицензии [MIT](LICENSE).
