@@ -24,10 +24,15 @@ cd digital-pong
 
 ## Использование
 
+### Клиент
 ```bash
 cd src/module/client
 python main(client).py
-cd ../server
+```
+
+### Сервер
+```bash
+cd src/module/server
 python main(server).py
 ```
 
